@@ -10,8 +10,8 @@
 
 import bcrypt
 
-user = 'bob'
-password = b'WhatAboutBob?!'
+user = 'XXXXXXX'
+password = b'XXXXXXXXXXX'
 
 # Hash a password for the first time, with a randomly-generated salt
 hashed = bcrypt.hashpw(password, bcrypt.gensalt())
