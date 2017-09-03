@@ -12,8 +12,8 @@ func TestEmptyWords(t *testing.T) {
 }
 	
 func TestMapCounts(t *testing.T) {
-	m := api.WordCounter("aaa bbb bbb ccc ccc")
+	m := api.WordCounter("aaa bbb bbb bbb! ccc ccc")
 	assert.Equal(t, m["aaa"], 1, "map returned has invalid count")
-	assert.Equal(t, m["bbb"], 2, "map returned has invalid count")
+	assert.Equal(t, m["bbb"], 3, "map returned has invalid count")
 	assert.Equal(t, m["ccc"], 2, "map returned has invalid count")
 }	
