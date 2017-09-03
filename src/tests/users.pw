@@ -1,0 +1,8 @@
+# slackwc valid users
+# comments begin with "#". Blank lines will be skipped
+#
+# format:
+# username:bcrypt_password
+
+jna:$2a$12$pnAk5hAF18wTkAQ2jrrRlOm/8Vk85ZND4JKvFqLGVsM0s1DdUir1u
+bob:$2b$12$vg7RkHOlqfXdD1LwUDuT1uLU0DUDMMBB.SZriXErPu2dRRc9AyoK.
